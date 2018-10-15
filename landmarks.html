@@ -13,14 +13,14 @@
 <div id="top-bar">&nbsp; </div>
 <div class="page_wrapper">
 
-<div id="header">
+<div id="header" role="banner">
 	<div id="course_title_container" style="left:1em;">		
 	    <h1 id="section-title">Our Community Website</h1>
 	</div>
 </div>
 
 <div class="" style="z-index: auto; position: static; top: auto;" id="lrg_topnav">
-    <div style="width: 100%;" id="topnavlistcontainer" aria-label="main navigation tabs">
+    <div style="width: 100%;" id="topnavlistcontainer" role="navigation" aria-label="main navigation tabs">
         <a name="main-nav" id="main-nav"></a>
         <ul style="" id="topnavlist">
         <li><a href="index.html" accesskey="1" title="Back to Index Alt+1">Back to Index</a></li>
@@ -33,7 +33,7 @@
     </div> 
 </div>
 
-<div class="logoutbar">&nbsp; <input type="text" class="input"><input type="submit" value="search"></div>
+<div class="logoutbar">&nbsp; <input type="text" class="input"  aria-label="search box" role="searchbox"><input type="submit" value="search"></div>
 <div class="crumbcontainer">
 		<div id="breadcrumbs" tabindex="0" aria-label="breadcrumb links">&nbsp;</div>
 </div>
@@ -41,7 +41,7 @@
     <div id="lrg_content">
 		<div id="leftcolumn">
 		  <a id="menu"></a>
-		     <div id="side-menu" aria-label="left side menu" accesskey="0">
+		     <div id="side-menu"  role="region"  aria-label="left side menu" accesskey="0">
 		        <br/>
                 <h2 class="box"><span>Networking</span></h2>
                 <div class="box" id="menu_Networking">
@@ -72,10 +72,10 @@
 	<br style="clear:both;">
 	<a id="top"></a>
 
-<div class="profile">
+<div class="profile" role="main">
 <h2>Join our community</h2>
 <div id="feedback">&nbsp;</div>
-<form id="join_form">
+<form id="join_form" role="form">
 <dl>
 <dt>
 <img src="images/required.gif" height="14" width="14" alt="Required Field" /> denotes required fields.<br />
@@ -215,8 +215,8 @@
 		<br style="width:100%;clear:both;" />
 
 	</div>
-<div id="advertising">
-<h2>Advertising</h2>
+<div id="advertising" role="region" aria-labelledby="advertisingh2">
+<h2 id="advertisingh2" >Advertising</h2>
 <div>
 <img src="images/rum_cover.jpg" alt="" />
 <br style="clear:both;"/>
@@ -229,7 +229,7 @@
 <p><br><br>&nbsp;</p>
 </div>
 
-<div id="footer"> Copyright &copy; <a href="" class="fake">Chang School.</a>
+<div id="footer" role="contentinfo"> Copyright &copy; <a href="" class="fake">Chang School.</a>
 </div>
 
 </body>
